@@ -13,8 +13,6 @@ public class Fortuenteller  {
 
 		// Allow a restart by entering "restart"
 		System.out.println("Enter \"Restart\" at any point to start over.");
-		String outpute = "foo"; //Give the String a value for methods later
-
 		
 		System.out.println("enter frist name");
 		String first = values.nextLine();
@@ -26,33 +24,35 @@ public class Fortuenteller  {
 		 
 		// in what month were you born ?
 		 
-		         System.out.println("enter number for birth month 1,2,3,4,5,6,7,8,9,10,11,12");  
-					int birth = values.nextInt ();
+		         System.out.println("enter number for birth month ");
+		         System.out.println("1,2,3,4,5,6,7,8,9,10,11,12");
+					int birth = values.nextInt();
+					values.nextLine();
 			            
 				      if ( birth == 1 ){
-					  System.out.println("1");
+					  System.out.println("Jan");
 					  }else if ( birth == 2){
-					  System.out.println("2");
+					  System.out.println("feb");
 					  }else if (birth == 3){
-					  System.out.println("3");
+					  System.out.println("mar");
 					  }else if (birth == 4){
-					   System.out.println("4");
+					   System.out.println("apr");
 					  }else if (birth == 5){
-					   System.out.println("5");
+					   System.out.println("may");
 					  }else if (birth == 6){
-					   System.out.println("6");
+					   System.out.println("jun");
 					  }else if( birth == 7){
-					   System.out.println("7");
+					   System.out.println("jul");
 					  }else if(birth == 8){
-					  System.out.println("8");
+					  System.out.println("aug");
 					  }else if(birth == 9){
-					   System.out.println("9");
+					   System.out.println("sep");
 					  }else if(birth == 10){
-					   System.out.println("10");
+					   System.out.println("oct");
 					  }else if(birth == 11){
-						System.out.println("11");
+						System.out.println("nov");
 					  }else if(birth == 12){
-					  System.out.println("12");
+					  System.out.println("dec");
 				
 					  
 			//  Ask the user for the user’s favorite ROYGBIV color	   
@@ -60,14 +60,14 @@ public class Fortuenteller  {
 			//  (print with the quotation marks) to get a list of the ROYGBIV colors
 			// switch case	
 					  			  
-		 System.out.println("what is your favorite ROYGBIV COLOR ? if the user does not know enter /HELP/" );  		  
-		   String month = values.nextLine();
+		   System.out.println("what is your favorite ROYGBIV COLOR ? if the user does not know enter /HELP/" );  		  
+		   String color = values.nextLine();
 		   String inpute ;
 		   int inpute1 = 0 ;
 		   switch (inpute1){
-			   
+		      
 		   case 'R':
-		     System.out.println("red");
+		      System.out.println("red");
 		     break ;
 		   case 'O':
 			 System.out.print("orange");
