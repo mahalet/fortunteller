@@ -208,9 +208,9 @@ public class Cproject {
 		sc.close();
 
 		if (answer.equalsIgnoreCase("Quit")) {
-			System.out.println("Nobody likes a quitter... So come back when you are ready.");
+			System.out.println("goodbye");
 		} else {
-			System.out.println("Goodbye");
+			System.out.println("restart");
 		}
 
 	} // end of class {}
